@@ -13,6 +13,12 @@ This library provides Swift Macros to help with:
 
 It also provides a function that you can use at run time, for using the actual strings with the services that you need (`revealed(obfuscatedStringBytes, salt)`).
 
+## Installation
+
+Please use the Swift Package Manager to install this library and use the `Obfuscator` module inside your production code. You will need to allow using the package in your project before you're able to import and use it.
+
+## Still, to be done
+- Unit test the library properly
 
 ## Example use
 
